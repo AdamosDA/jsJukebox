@@ -1,0 +1,36 @@
+/* use this to put borders around things... */
+h1, h3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+
+
+
+.crop-audio{
+  max-height:100px;
+  max-width:100%;
+  height:55px;
+  margin-bottom: 30px;
+  border-style:solid;
+  background-image:url('http://dev.eng.gr/html/JS/jsJukebox/play.png');
+  background-repeat:no-repeat;
+  background-position: left 10px center;
+
+
+}
+
+.Title {
+  max-width:100%;
+  margin-top: 10px;
+  text-align: center;
+
+}
+
+
+.ref {
+
+margin-top: 30px;
+margin-bottom: 30px;
+
+}
