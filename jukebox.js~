@@ -13,8 +13,7 @@ $(".crop-audio").click(function(){
 	// send the URL of the mp3 to the <audio> element, in #bigAudio div
 	$("#bigAudio").attr('src',"http://dev.eng.gr/html/JS/jsJukebox/"+$(this).attr('alt') + ".mp3");
 	// console.log("http://dev.eng.gr/html/JS/jsJukebox/"+$(this).attr('alt') + ".mp3");
-        $('#bigAudio')[0].play();
-	        
+
   // set some fadein
   $("#bigAudio")[0].volume = 0.1;
 	$("#bigAudio").animate({volume: 1}, 3000);
